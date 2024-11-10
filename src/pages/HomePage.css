@@ -1,0 +1,57 @@
+/* HomePage.css */
+
+/* Container to hold the product cards */
+.products-container {
+    display: grid;
+    gap: 20px; /* Space between grid items */
+    padding: 20px;
+    /* Responsive grid with columns scaling based on screen width */
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    /* Ensures items wrap automatically based on screen space */
+    width: 100%;
+    max-width: 1200px; /* Adjust as needed */
+    margin: 0 auto;
+  }
+  
+  /* Basic styling for individual product cards */
+  .product-card {
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    overflow: hidden;
+    background-color: white;
+  }
+  
+  /* Product image styling */
+  .product-card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+  }
+  
+  /* Product text styling */
+  .product-card h3 {
+    font-size: 1.25rem;
+    margin: 16px;
+  }
+  
+  .product-card p {
+    font-weight: bold;
+    font-size: 1rem;
+    color: #4a5568; /* Use a suitable color */
+    margin: 0 16px 16px;
+  }
+  
+  /* Icon button container styling */
+  .icon-buttons {
+    display: flex;
+    justify-content: space-around;
+    padding: 8px 16px 16px;
+  }
+  
+  /* Hover effect for product card */
+  .product-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.15);
+  }
+  
