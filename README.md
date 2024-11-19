@@ -21,8 +21,8 @@ from frontend npm run dev
 
 todo
 
-
-video at 1:49:00 but we don't care about toast
+frontend and backend now working. 
+video at 2:00:00 for deployment
 
 
 to add to scripts in package.json
